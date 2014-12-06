@@ -13,6 +13,9 @@
 		2F6529121A32E937001D3ACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6529111A32E937001D3ACD /* Images.xcassets */; };
 		2F6529151A32E937001D3ACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F6529131A32E937001D3ACD /* LaunchScreen.xib */; };
 		2F6529211A32E937001D3ACD /* HouseAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6529201A32E937001D3ACD /* HouseAlarmTests.swift */; };
+		2F65292B1A32EB96001D3ACD /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F65292A1A32EB96001D3ACD /* NMSSH.framework */; };
+		2F65292D1A32EBC2001D3ACD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F65292C1A32EBC2001D3ACD /* CFNetwork.framework */; };
+		2F65292F1A32EBE6001D3ACD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F65292E1A32EBE6001D3ACD /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 		2F65291A1A32E937001D3ACD /* HouseAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F65291F1A32E937001D3ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F6529201A32E937001D3ACD /* HouseAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseAlarmTests.swift; sourceTree = "<group>"; };
+		2F65292A1A32EB96001D3ACD /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMSSH.framework; path = HouseAlarm/NMSSH.framework; sourceTree = "<group>"; };
+		2F65292C1A32EBC2001D3ACD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2F65292E1A32EBE6001D3ACD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2F6529321A32F1C9001D3ACD /* NMSSH-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMSSH-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F65292F1A32EBE6001D3ACD /* libz.dylib in Frameworks */,
+				2F65292D1A32EBC2001D3ACD /* CFNetwork.framework in Frameworks */,
+				2F65292B1A32EB96001D3ACD /* NMSSH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +69,12 @@
 		2F6528FC1A32E937001D3ACD = {
 			isa = PBXGroup;
 			children = (
+				2F65292E1A32EBE6001D3ACD /* libz.dylib */,
+				2F65292C1A32EBC2001D3ACD /* CFNetwork.framework */,
 				2F6529071A32E937001D3ACD /* HouseAlarm */,
 				2F65291D1A32E937001D3ACD /* HouseAlarmTests */,
 				2F6529061A32E937001D3ACD /* Products */,
+				2F65292A1A32EB96001D3ACD /* NMSSH.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +90,7 @@
 		2F6529071A32E937001D3ACD /* HouseAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				2F6529321A32F1C9001D3ACD /* NMSSH-Bridging-Header.h */,
 				2F65290A1A32E937001D3ACD /* AppDelegate.swift */,
 				2F65290C1A32E937001D3ACD /* ViewController.swift */,
 				2F65290E1A32E937001D3ACD /* Main.storyboard */,
@@ -338,9 +352,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HouseAlarm",
+					"$(PROJECT_DIR)/NMSSH.framework/Headers",
+				);
 				INFOPLIST_FILE = HouseAlarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "NMSSH-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -348,9 +368,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HouseAlarm",
+					"$(PROJECT_DIR)/NMSSH.framework/Headers",
+				);
 				INFOPLIST_FILE = HouseAlarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "NMSSH-Bridging-Header.h";
 			};
 			name = Release;
 		};
