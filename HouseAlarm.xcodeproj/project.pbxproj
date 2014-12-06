@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F65290B1A32E937001D3ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F65290A1A32E937001D3ACD /* AppDelegate.swift */; };
+		2F65290D1A32E937001D3ACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F65290C1A32E937001D3ACD /* ViewController.swift */; };
+		2F6529101A32E937001D3ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F65290E1A32E937001D3ACD /* Main.storyboard */; };
+		2F6529121A32E937001D3ACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6529111A32E937001D3ACD /* Images.xcassets */; };
+		2F6529151A32E937001D3ACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F6529131A32E937001D3ACD /* LaunchScreen.xib */; };
+		2F6529211A32E937001D3ACD /* HouseAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6529201A32E937001D3ACD /* HouseAlarmTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F65291B1A32E937001D3ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F6528FD1A32E937001D3ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6529041A32E937001D3ACD;
+			remoteInfo = HouseAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F6529051A32E937001D3ACD /* HouseAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6529091A32E937001D3ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F65290A1A32E937001D3ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F65290C1A32E937001D3ACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F65290F1A32E937001D3ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F6529111A32E937001D3ACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F6529141A32E937001D3ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2F65291A1A32E937001D3ACD /* HouseAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F65291F1A32E937001D3ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6529201A32E937001D3ACD /* HouseAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseAlarmTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F6529021A32E937001D3ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6529171A32E937001D3ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F6528FC1A32E937001D3ACD = {
+			isa = PBXGroup;
+			children = (
+				2F6529071A32E937001D3ACD /* HouseAlarm */,
+				2F65291D1A32E937001D3ACD /* HouseAlarmTests */,
+				2F6529061A32E937001D3ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F6529061A32E937001D3ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F6529051A32E937001D3ACD /* HouseAlarm.app */,
+				2F65291A1A32E937001D3ACD /* HouseAlarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F6529071A32E937001D3ACD /* HouseAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				2F65290A1A32E937001D3ACD /* AppDelegate.swift */,
+				2F65290C1A32E937001D3ACD /* ViewController.swift */,
+				2F65290E1A32E937001D3ACD /* Main.storyboard */,
+				2F6529111A32E937001D3ACD /* Images.xcassets */,
+				2F6529131A32E937001D3ACD /* LaunchScreen.xib */,
+				2F6529081A32E937001D3ACD /* Supporting Files */,
+			);
+			path = HouseAlarm;
+			sourceTree = "<group>";
+		};
+		2F6529081A32E937001D3ACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F6529091A32E937001D3ACD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F65291D1A32E937001D3ACD /* HouseAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F6529201A32E937001D3ACD /* HouseAlarmTests.swift */,
+				2F65291E1A32E937001D3ACD /* Supporting Files */,
+			);
+			path = HouseAlarmTests;
+			sourceTree = "<group>";
+		};
+		2F65291E1A32E937001D3ACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F65291F1A32E937001D3ACD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F6529041A32E937001D3ACD /* HouseAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6529241A32E937001D3ACD /* Build configuration list for PBXNativeTarget "HouseAlarm" */;
+			buildPhases = (
+				2F6529011A32E937001D3ACD /* Sources */,
+				2F6529021A32E937001D3ACD /* Frameworks */,
+				2F6529031A32E937001D3ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseAlarm;
+			productName = HouseAlarm;
+			productReference = 2F6529051A32E937001D3ACD /* HouseAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F6529191A32E937001D3ACD /* HouseAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6529271A32E937001D3ACD /* Build configuration list for PBXNativeTarget "HouseAlarmTests" */;
+			buildPhases = (
+				2F6529161A32E937001D3ACD /* Sources */,
+				2F6529171A32E937001D3ACD /* Frameworks */,
+				2F6529181A32E937001D3ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F65291C1A32E937001D3ACD /* PBXTargetDependency */,
+			);
+			name = HouseAlarmTests;
+			productName = HouseAlarmTests;
+			productReference = 2F65291A1A32E937001D3ACD /* HouseAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F6528FD1A32E937001D3ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Roberto Viola";
+				TargetAttributes = {
+					2F6529041A32E937001D3ACD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2F6529191A32E937001D3ACD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2F6529041A32E937001D3ACD;
+					};
+				};
+			};
+			buildConfigurationList = 2F6529001A32E937001D3ACD /* Build configuration list for PBXProject "HouseAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F6528FC1A32E937001D3ACD;
+			productRefGroup = 2F6529061A32E937001D3ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F6529041A32E937001D3ACD /* HouseAlarm */,
+				2F6529191A32E937001D3ACD /* HouseAlarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F6529031A32E937001D3ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6529101A32E937001D3ACD /* Main.storyboard in Resources */,
+				2F6529151A32E937001D3ACD /* LaunchScreen.xib in Resources */,
+				2F6529121A32E937001D3ACD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6529181A32E937001D3ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F6529011A32E937001D3ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F65290D1A32E937001D3ACD /* ViewController.swift in Sources */,
+				2F65290B1A32E937001D3ACD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6529161A32E937001D3ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6529211A32E937001D3ACD /* HouseAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F65291C1A32E937001D3ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F6529041A32E937001D3ACD /* HouseAlarm */;
+			targetProxy = 2F65291B1A32E937001D3ACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F65290E1A32E937001D3ACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F65290F1A32E937001D3ACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F6529131A32E937001D3ACD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6529141A32E937001D3ACD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F6529221A32E937001D3ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F6529231A32E937001D3ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F6529251A32E937001D3ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HouseAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F6529261A32E937001D3ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HouseAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F6529281A32E937001D3ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HouseAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseAlarm.app/HouseAlarm";
+			};
+			name = Debug;
+		};
+		2F6529291A32E937001D3ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HouseAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseAlarm.app/HouseAlarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F6529001A32E937001D3ACD /* Build configuration list for PBXProject "HouseAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6529221A32E937001D3ACD /* Debug */,
+				2F6529231A32E937001D3ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6529241A32E937001D3ACD /* Build configuration list for PBXNativeTarget "HouseAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6529251A32E937001D3ACD /* Debug */,
+				2F6529261A32E937001D3ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F6529271A32E937001D3ACD /* Build configuration list for PBXNativeTarget "HouseAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6529281A32E937001D3ACD /* Debug */,
+				2F6529291A32E937001D3ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F6528FD1A32E937001D3ACD /* Project object */;
+}
